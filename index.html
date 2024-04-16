@@ -14,18 +14,21 @@
     </header>
     <div class="container">
       <main>
-        <form id="poem-generator-form">
-          <input
-            type="text"
-            placeholder="Enter topic ..."
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-instructions"
-          />
-          <input type="submit" class="button" />
-        </form>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              type="text"
+              placeholder="Enter topic ..."
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-instructions"
+            />
+            <input type="submit" class="button" />
+          </form>
+          <div class="hint">i.e Flower, Trees, Nature</div>
+        </div>
         <div class="poem" id="poem"></div>
       </main>
     </div>
